@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="task1form.css">
+</head>
+
+<body>
+    <div class="container">
+        <form  onsubmit="return validate()" action="next.html">
+            <div class="userInfo">
+                <h1>User Information</h1>
+            </div>
+            
+            <div class="heading">
+                <h1>Username</h1>
+            </div>
+            <div class="inputbox">
+                <input id="Username" type="text" name="Username" >
+            </div>
+            <div class="uservalidate" id="mouseenteruser">
+                <p>Please Provide Username</p>
+            </div>
+
+
+            <div class="heading">
+                <h1>Email</h1>
+            </div>
+            <div class="inputbox">
+                <input type="email" id="Email" name="Email" >
+            </div>
+            <div class="emailvalidate" id="mouseenteremail">
+                <p>Please Provide Email</p>
+            </div>
+
+            <div class="heading">
+                <h1>Mobile Number</h1>
+            </div>
+            <div class="inputbox">
+                <input id="Mobile" type="number" name="MobileNumber" >
+            </div>
+            <div class="mobilevalidate" id="mouseentermobile">
+                <p>Please Provide MobileNumber</p>
+            </div>
+
+
+
+            <div class="heading">
+                <h1>Degree</h1>
+            </div>
+            <div class="inputbox">
+               <select name="degree" id="Degree">
+                 <option  value="none" selected disabled hidden>Select an Option</option>
+                 <option  value="B.E">B.E</option>
+                 <option  value="B.Tech">B.Tech</option>
+               </select>
+            </div>
+            <div class="degreevalidate" id="mouseenterdegree">
+                <p>Please Provide Degree</p>
+            </div>
+
+
+
+            
+            <div class="heading">
+                <h1>Course</h1>
+            </div>
+            <div class="inputbox">
+               <select name="course" id="Course">
+                <option value="none" selected disabled hidden>Select an Option</option>
+                 <option value="ECE">ECE</option>
+                 <option value="CSE">CSE</option>
+                 <option value="MECH">MECH</option>
+                 <option value="EEE">EEE</option>
+                 <option value="IT">IT</option>
+               </select>
+            </div>
+            <div class="coursevalidate" id="mouseentercourse">
+                <p>Please Provide Course</p>
+            </div>
+
+
+
+            <div class="heading">
+                <h1>Year</h1>
+            </div>
+            <div class="radiobuttonbox" id="radiobuttonbox">
+                <input type="radio" name="Year" id="I"  >
+                    <label for="I">I</label>
+                    <br>
+                    
+                <input type="radio" name="Year" id="II" >
+                    <label for="II">II</label>
+                    <br>
+
+                <input type="radio" name="Year" id="III" >
+                    <label for="III">III</label>
+                    <br>
+
+                <input type="radio" name="Year" id="IV">
+                    <label for="IV">IV</label>
+                    <br>
+            </div>
+            <div class="yearvalidate" id="mouseenteryear">
+                <p>Please Provide Year</p>
+            </div>
+
+
+
+
+            <div class="heading">
+                <h1>Password</h1>
+            </div>
+            <div class="inputbox">
+                <input type="password" name="password" id="Password">
+            </div>
+            <div class="passwordvalidate" id="mouseenterpassword">
+                <p>Please Provide Password</p>
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="submit" class="submit" id="Submit">
+            </div>
+
+        </form>
+    </div>
+
+</body>
+<script src="task1form.js"></script>
+
+</html>

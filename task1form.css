@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #08ced1ab;
+}
+
+.container {
+    background-color: #fff;
+    width: 90%;
+    max-width: 400px;
+    margin: 44px auto 0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.userInfo h1{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 6px;
+    border-bottom: 2px solid black;
+}
+
+h1{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+.inputbox input{
+    width: 100%;
+    height: 26px;
+    margin-top: 4px;
+    padding-left: 6px;
+}
+.inputbox select{
+    width: 100%;
+    height: 26px;
+    margin-top: 4px;
+    padding-left: 6px;
+}
+
+.uservalidate,.emailvalidate,.yearvalidate,.coursevalidate,.passwordvalidate,.degreevalidate,.mobilevalidate{
+    font-size: 16px;
+    color: white;
+}
+.submit{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit input{
+    height: 24px;
+    width: 150px;
+    /* margin-top: 8px; */
+    padding: auto;
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+
+.submit input:hover{
+
+     background-color:  #058d8fab;
+     color: white;
+}
+
+.radiobuttonbox{
+    margin-top: 4px;
+}
+
+
+
