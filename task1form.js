@@ -37,7 +37,7 @@ function emailValidate(){
         document.getElementById("mouseenteremail").style.color = "red";
         emailField = false;
     }
-    else if(!ele.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
+    else if(!ele.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z\.]*[\.][a-z]{2,4}$/)){
         document.getElementById("mouseenteremail").innerHTML = "Provide valid email Id";
         document.getElementById("mouseenteremail").style.color = "red";
         emailField = false;
