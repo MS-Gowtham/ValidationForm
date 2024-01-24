@@ -1,3 +1,4 @@
+window.addEventListener("DOMContentLoaded", function() {   
 var userField = false;
 var emailField = false;
 var mobileField = false;
@@ -219,7 +220,7 @@ function validate(){
     }
 }
 
-
+})
 
 
 
